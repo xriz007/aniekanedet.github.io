@@ -336,6 +336,23 @@ a[data-toggle="collapse"] {
     margin-top:50px;
     margin-bottom:10px;
 }
+.contact-content{
+    background-color:rgba(11, 12, 45, 0.979);
+    width: 100%;
+    border-radius: 1%;
+    padding: 10px;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.footer-content{
+    background-color:rgba(11, 12, 45, 0.979);
+    width: 100%;
+    border-radius: 1%;
+    padding: 10px;
+    /* margin-top:50px;
+    margin-bottom:10px; */
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
