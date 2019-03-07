@@ -19,13 +19,11 @@ p {
     line-height: 1.7em;
     color: #999;
 }
-.btn-info{
-    background-color: 
-}
+
 
 .logo{
     border: 2px solid white;
-    border-radius: 2%;
+    border-radius: 5.5%;
     padding: 10px;
   }
   .resumebtn {
@@ -212,22 +210,26 @@ a.article:hover {
 }
 
 .about-content{
-    background-color:rgba(11, 12, 45, 0.979);
+    background-color:#010B2F;
     width: 100%;
     border-radius: 1%;
     padding: 10px;
+    padding-top:100px;
+    padding-bottom:100px;
     margin-top:50px;
     margin-bottom:10px;
 }
 .about-img{
     /* margin-top: 50px; */
-    border: 1px solid black;
+    border: 10px solid #fff;
     border-radius: 1%;
+    
+
 
 }
 
 .porfolio-content{
-    background-color:rgba(11, 12, 45, 0.979);
+    background-color:#010B2F;
     margin: 1px;
     margin-top:50px;
     margin-bottom:10px;
@@ -238,7 +240,7 @@ a.article:hover {
 }
 
 .services-content{
-    background-color:rgba(11, 12, 45, 0.979);
+    background-color:#010B2F;
     width: 100%;
     border-radius: 1%;
     padding: 10px;
@@ -246,7 +248,7 @@ a.article:hover {
     margin-bottom:10px;
 }
 .contact-content{
-    background-color:rgba(11, 12, 45, 0.979);
+    background-color:#010B2F;
     width: 100%;
     border-radius: 1%;
     padding: 10px;
@@ -255,7 +257,7 @@ a.article:hover {
 }
 
 .footer-content{
-    background-color:rgba(11, 12, 45, 0.979);
+    background-color:#010B2F;
     width: 100%;
     border-radius: 1%;
     padding: 10px;
@@ -366,11 +368,12 @@ a.article:hover {
 
 #loader-wrapper {
     position: fixed;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     z-index: 1000;
+    background-color: #fff;
 }
 #loader {
     display: block;
@@ -457,13 +460,13 @@ a.article:hover {
         transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
     }
 
-    #loader-wrapper .loader-section.section-left {
+    /* #loader-wrapper .loader-section.section-left {
         left: 0;
-    }
+    } */
 
-    #loader-wrapper .loader-section.section-right {
+    /* #loader-wrapper .loader-section.section-right {
         right: 0;
-    }
+    } */
 
     /* Loaded */
     .loaded #loader-wrapper .loader-section.section-left {
