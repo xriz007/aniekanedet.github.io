@@ -8,6 +8,7 @@ body {
 header{
     background:linear-gradient(rgba(1, 11, 47, 0.479), rgba(1, 11, 47, 0.472)), url(assets/image/cover.JPG) no-repeat center center;
     height: 750px;
+    background-size: cover;
     border-radius: 0.5%;
   }
 
@@ -266,18 +267,11 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
-    header{
-        background:linear-gradient(rgba(1, 11, 47, 0.479), rgba(1, 11, 47, 0.472)), url(assets/image/cover.JPG) no-repeat center center;
-        height: 750px;
-        border-radius: 0.5%;
-      }
     #sidebar {
         min-width: 80px;
         max-width: 80px;
         text-align: center;
         margin-left: -80px !important;
-    }
-
     }
     .dropdown-toggle::after {
         top: auto;
