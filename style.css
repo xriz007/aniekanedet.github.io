@@ -10,6 +10,7 @@ header{
     height: 750px;
     background-size: cover;
     border-radius: 0.5%;
+    position: relative;
   }
 
 p {
@@ -208,7 +209,16 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
+.header-content{
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+.header-content p{
+    color: #e2dfe0;
+    font-size:25px; 
 
+}
 .about-content{
     background-color:#010B2F;
     width: 100%;
@@ -220,14 +230,20 @@ a.article:hover {
     margin-bottom:10px;
 }
 .about-img{
-    /* margin-top: 50px; */
-    border: 10px solid #fff;
+    border: 10px solid #e2dfe0;
     border-radius: 1%;
-    
-
+}
+.about-info{
 
 }
-
+.about-info p{
+    color: #e2dfe0;
+    /* text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    word-spacing: 10px; */
+    padding-top: 20px;
+}
 .porfolio-content{
     background-color:#010B2F;
     margin: 1px;
@@ -269,6 +285,27 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    .header-content p{
+        color: #fff;
+        font-size:22px;
+        line-height: 40px;
+        font-weight: 530; 
+    
+    }
+    .about-content{
+        padding: 10px;
+        padding-top:50px;
+        padding-bottom:50px;
+        margin-top:20px;
+        margin-bottom:5px;
+    }
+    .about-info p{
+        color: #e2dfe0;
+        padding-top: 15px;
+    }
+    .about-img{
+        margin-top: 35px;
+    }
     #sidebar {
         min-width: 80px;
         max-width: 80px;
