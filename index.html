@@ -15,6 +15,7 @@
     <link rel="stylesheet" media="screen and (min-device-width: 500px)" class="aos" href="css/aos.css" />
 </head>
 
+
 <body  data-spy='scroll' data-target='.navbar' data-offset='0' >
     <div id="loader-wrapper">
             <div id="loader"></div>
@@ -96,9 +97,7 @@
                                 <div class="container-fluid socailnav">
                 
                                         <i class=" btn fas fa-align-left "  id="sidebarCollapse"></i>
-                                        <!-- <button class="> -->
-                                            <i class="fas fa-align-justify  d-inline-block d-lg-none ml-auto"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"></i>
-                                        <!-- </button>                                   -->
+                                          <i class="fas fa-align-justify social-btn d-inline-block d-lg-none ml-auto"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"></i>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="nav mobile-nav navbar-nav ml-auto ">
                                             
@@ -129,7 +128,7 @@
                                                     </a>
                                                 </li> 
                                         </ul> <br>
-                                        <button type="button" class="animated pulse infinite delay-5s btn resumebtn "></i>Resume <i class="fas fa-file-download"></i></button>
+                                        <button type="button" class="animated pulse infinite delay-5s btn resumebtn d-sm-none d-md-block d-none .d-sm-block "></i>Resume <i class="fas fa-file-download"></i></button>
                                     </div>
                                 </div>
                             </nav>
@@ -162,7 +161,7 @@
                                                             id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, 
                                                             tortor mauris condimentum nibh.
                                                             <br><br>
-                                                           <span class="d-block d-sm-none d-none d-sm-block d-md-none">Download my <a style="background-color:; color:rgb(56, 1, 1);"href="#">Resume</a></span> 
+                                                           <span class="d-block d-sm-none d-none d-sm-block d-md-none">Download <a style="background-color:; color:#6d7fcc;"href="#"> <strong> Resume</strong></a></span> 
                                                            </p><br>
                                       
                                                       </div>
@@ -223,14 +222,14 @@
                                                  </div>
                                                        </div>
                                                   
-                                                 <div data-aos="fade-left" class="col-sm-6 col-lg-4 mb-3">
+                                                 <!-- <div data-aos="fade-left" class="col-sm-6 col-lg-4 mb-3">
                                                        <div class="text-center">
                                                        <img src="assets/icons/digitalcolor.png" alt="" width="20%">
                                                          <h6  class="text-white">Digital Marketing</h6>
                                                    <p class="text-muted">Et labore tempor et adipisicing dolor.</p>
                                                        </div>                                    
                                                    
-                                                 </div>
+                                                 </div> -->
                                                </div>
                                              </div>
                                </div>
@@ -270,51 +269,49 @@
                            <div class="row text-center mt-5 mb-5">
                                <div data-aos="fade-right" class="col-md-4">
                                    <i class="fas fa-map"></i> <br>
-                                   <span>Moon Street Light Avenue <br>
-                                           14/05 Jupiter, JP 80630</span>
+                                   <p>Moon Street Light Avenue <br>
+                                           14/05 Jupiter, JP 80630</p>
                                </div>
                                <div data-aos="fade-up" class="col-md-4">
                                        <i class="fas fa-mobile-alt"></i><br>
-                                   <span>00 (123) 456 78 90 <br>
-                                           00 (987) 654 32 10</span>
+                                   <p>00 (123) 456 78 90 <br>
+                                           00 (987) 654 32 10</p>
                                </div>
                                <div data-aos="fade-left" class="col-md-4">
                                        <i class="fas fa-envelope"></i> <br>
-                                   <span>
+                                   <p>
                                            manager@email.com <br>
                                            asistant@email.com
-                                   </span>
+                                   </p>
                                </div>
                            </div>
                            <div class="row mt-5 mb-5">
-                               <div class="col-md-6">
-                                       <form>
-                                               <div class="form-group">
-                                                 <label for="exampleFormControlInput1">Name</label>
-                                                 <input type="name" class="form-control" >
-                                               </div>
-                                           
-                                               <div class="form-group">
-                                                       <label for="exampleFormControlInput1">Email</label>
-                                                       <input type="email" class="form-control" >
-                                               </div>
-           
-                                               <div class="form-group">
-                                                       <label for="exampleFormControlInput1">Subject</label>
-                                                       <input type="email" class="form-control" >
-                                               </div>
-                                                   <button class="btn btn-primary" type="submit">Send</button>
-                                             </form>
-                               </div>
-                               <div class="col-md-6">
-           
-                                       <form>
-                                               <div class="form-group">
-                                                       <label >Name</label>
-                                                       <textarea class="form-control" rows="3"></textarea>
-                                                     </div>
-                                     </form>
-                               </div>
+                                <form style="widows: 50%; margin: auto;">
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label>First Name</label>
+                                        <input type="email" class="form-control" id="firstname" placeholder="John">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Last Name</label>
+                                        <input type="password" class="form-control" id="lastname" placeholder="Doe">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress">Email</label>
+                                      <input type="text" class="form-control" id="email" placeholder="Johndoe@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress2">Subject</label>
+                                      <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress2">Mesage</label>
+                                        <textarea id="my-input" class="form-control" rows="5" id="message"></textarea>
+                                      </div>
+                                    <button type="submit" class="btn sendbtn">Send</button>
+                                  </form>
+                             
                            </div>
                        </div>
                    </section>
