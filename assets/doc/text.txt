@@ -143,3 +143,13 @@
 .no-js h1 {
   color: #222222;
 }
+ <!-- <div id="loader-wrapper">
+            <div id="loader"></div>
+
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div> -->
+        <div class="spinner spinner-5">
+            <span></span><span></span><span></span></div>
+        <!-- <div class="se-pre-con"></div -->
