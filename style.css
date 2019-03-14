@@ -7,7 +7,7 @@ body {
 }
 #header {
   background: linear-gradient(rgba(1, 11, 47, 0.479), rgba(1, 11, 47, 0.472)),
-    url(assets/image/cover.JPG) no-repeat center center;
+    url("https://res.cloudinary.com/we-codes/image/upload/v1546274326/IMG_8426.jpg") no-repeat center center;
   height: 650px;
   background-size: cover;
   border-radius: 0.5%;
@@ -78,6 +78,7 @@ a:focus {
 .fas,
 .fab {
   color: white;
+  font-size: 20px;
 }
 .insta-icon {
   position: relative;
@@ -320,8 +321,8 @@ a.article:hover {
 
 @media (max-width: 768px) {
   header {
-    background: linear-gradient(rgba(1, 11, 47, 0.479), rgba(1, 11, 47, 0.472)),
-      url(assets/image/covermb.JPG) no-repeat center;
+    background: linear-gradient(rgba(1, 11, 47, 0.479), #010b2f78),
+      url("https://res.cloudinary.com/we-codes/image/upload/v1546274326/IMG_8426.jpg") no-repeat center;
     height: 650px;
     background-size: cover;
     border-radius: 0.5%;
