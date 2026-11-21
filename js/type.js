@@ -3,8 +3,12 @@ var txt = 'Hi, I\'m Aniekan Edet. a Frontend Developer based in Uyo, Nigeria.';
 var speed = 70;
 
 function typeWriter() {
+  var el = document.getElementById('type');
+  if (!el) {
+    return;
+  }
   if (i < txt.length) {
-    document.getElementById("type").innerHTML += txt.charAt(i);
+    el.textContent += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
